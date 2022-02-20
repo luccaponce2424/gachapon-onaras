@@ -5,9 +5,6 @@ function clicker() {
     document.getElementById("pitogemas").innerHTML = p;
 }
 
-function updateDisplay(val) {
-    
-}
 
 /*function gachapon() {
     updateDisplay(p= p-60);
