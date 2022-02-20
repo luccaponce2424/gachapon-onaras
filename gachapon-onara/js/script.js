@@ -1,13 +1,14 @@
 var p = 0;
 
 function clicker() {
-    updateDisplay(++p);
+    p++
+    document.getElementById("pitogemas").innerHTML = p;
 }
 
 function updateDisplay(val) {
-    document.getElementById("pitogemas").innerHTML = val;
+    
 }
 
-function gachapon() {
+/*function gachapon() {
     updateDisplay(p= p-60);
-}
+}*/
